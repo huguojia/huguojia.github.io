@@ -1,7 +1,7 @@
 /*
 cron:47 4 1-12 11 * rush_dp1.js
 */
-const $ = new Env("大牌联合");
+const $ = new Env("大牌联合123");
 const jdCookieNode = $.isNode() ? require('./jdCookie.js') : '';
 const notify = $.isNode() ? require('./sendNotify') : '';
 const cp = $.isNode() ? require('child_process') : '';
